@@ -47,12 +47,12 @@ public class Main {
             switch (choice) {
                 case 1:
                     System.out.println("Введите мин ОЗУ(GB): ");
-                    int minRam = scanner.nextInt();//тут не проверяется на число и если ввести цифры вылетает
+                    int minRam = scanner.nextInt();//тут не проверяется на число и если ввести буквы вылетает
                     filters.put(1, minRam);
                     break;
                 case 2:
                     System.out.println("Введите мин HDD(GB): ");
-                    int minStorage = scanner.nextInt();//тут не проверяется на число и если ввести цифры вылетает
+                    int minStorage = scanner.nextInt();//тут не проверяется на число и если ввести буквы вылетает
                     filters.put(2, minStorage);
                     break;
                 case 3:
