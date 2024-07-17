@@ -78,6 +78,8 @@ public class Main {
                     System.out.println(laptop);
                 }
                 System.out.println("============================================");
+                System.out.println("Всего: " + fLaptops.size()+" выбрано.");
+                System.out.println("============================================");
                 //System.out.println("Выбрано: " + choice);
             }
         }
