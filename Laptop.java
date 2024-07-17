@@ -18,7 +18,7 @@ public class Laptop {
         this.brand = brand;
     }
 
-//    public String getModel() {
+//    public String getModel() {// model используется для просмотра, не для поиска
 //        return model;
 //    }
     public int getRam() {
